@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/MAFIAADEEL/MAFIA-MD';
+    const githubRepoURL = 'https://github.com/BrbBot69/BALLAS-XPRO';
 
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -180,7 +180,7 @@ ${repoData.description || 'No description provided'}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363300351654980@newsletter',
-                    newsletterName: config.OWNER_NAME || 'ᴍᴀғɪᴀ ᴀᴅᴇᴇʟ',
+                    newsletterName: config.OWNER_NAME || '♤𝗑ᴾᴿᴼ♧',
                     serverMessageId: 143
                 }
             }
