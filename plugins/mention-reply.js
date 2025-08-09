@@ -26,7 +26,7 @@ cmd({
     const botNumber = conn.user.id.split(":")[0] + '@s.whatsapp.net';
 
     if (m.mentionedJid.includes(botNumber)) {
-      const thumbnailRes = await axios.get(config.MENU_IMAGE_URL || "https://files.catbox.moe/c836ws.png", {
+      const thumbnailRes = await axios.get(config.MENU_IMAGE_URL || "https://files.catbox.moe/zdf59d.jpg", {
         responseType: 'arraybuffer'
       });
       const thumbnailBuffer = Buffer.from(thumbnailRes.data, 'binary');
@@ -40,12 +40,12 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           externalAdReply: {
-            title: config.BOT_NAME || "MAFIA-MD 🥀",
-            body: config.DESCRIPTION || "POWERED BY MAFIA ADEEL 🤌💗",
+            title: config.BOT_NAME || "BALLAS𝗑ᴾᴿᴼ 🥀",
+            body: config.DESCRIPTION || "POWERED BY BALLAS𝗑ᴾᴿᴼ 🤌💗",
             mediaType: 1,
             renderLargerThumbnail: true,
             thumbnail: thumbnailBuffer,
-            mediaUrl: "https://i.postimg.cc/6qsWSKXV/Screenshot-20250505-154041-1-1.jpg", // Static image URL
+            mediaUrl: "https://files.catbox.moe/zdf59d.jpg", // Static image URL
             sourceUrl: "https://wa.me/message/INB2QVGXHQREO1",
             showAdAttribution: true
           }
