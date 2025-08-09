@@ -22,7 +22,7 @@ async (conn, mek, m, { from, sender, reply }) => {
 > ${config.DESCRIPTION}`;
 
         await conn.sendMessage(from, {
-            image: { url:`https://files.catbox.moe/gbqx8b.jpg`},
+            image: { url:`https://files.catbox.moe/zdf59d.jpg`},
             caption: status,
             contextInfo: {
                 mentionedJid: [m.sender],
@@ -30,7 +30,7 @@ async (conn, mek, m, { from, sender, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363374872240664@newsletter',
-                    newsletterName: 'MAFIA ADEEL',
+                    newsletterName: 'BALLAS𝗑ᴾᴿᴼ',
                     serverMessageId: 143
                 }
             }
