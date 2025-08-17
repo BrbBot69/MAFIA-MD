@@ -16,7 +16,7 @@ async (conn, mek, m, { from, sender, reply }) => {
         const status = `
 ╭───〔 *🤖 ${config.BOT_NAME} STATUS* 〕───◉
 │✨ *Bot is Active & Online!*
-│🫥 *HI GYS ❤️‍🩹 ADEEL SABQI*
+│🫥 *HI GYS ❤️‍🩹 ♤𝗑ᴾᴿᴼ♧*
 │🧠 *Owner:* ${config.OWNER_NAME}
 ╰────────────────────◉
 > ${config.DESCRIPTION}`;
@@ -30,7 +30,7 @@ async (conn, mek, m, { from, sender, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363374872240664@newsletter',
-                    newsletterName: 'MAFIA ADEEL',
+                    newsletterName: '♤𝗑ᴾᴿᴼ♧',
                     serverMessageId: 143
                 }
             }
