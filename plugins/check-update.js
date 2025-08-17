@@ -26,10 +26,10 @@ cmd({
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("✅ Your MAFIA-MD bot is already up-to-date!");
+            return reply("✅ Your BALLAS𝗑ᴾᴿᴼ bot is already up-to-date!");
         }
 
-        await reply("🚀 Updating MAFIA-MD Bot...");
+        await reply("🚀 Updating BALLAS𝗑ᴾᴿᴼ...");
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
